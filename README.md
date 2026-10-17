@@ -356,7 +356,6 @@ My solutions to the [A2OJ Codeforces ladders](https://earthshakira.github.io/a2o
 ├── L11/   # Ladder 11 (rating < 1300)
 ├── L12/   # Ladder 12 (1300 – 1399)
 ├── L13/   # Ladder 13 (1400 – 1499)
-└── generate_readme.py
 ```
 
 Files are named `<Letter>_<Problem_Name>.py`, where the letter is the problem index in its contest.
