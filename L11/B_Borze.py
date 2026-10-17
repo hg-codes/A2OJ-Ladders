@@ -1,0 +1,16 @@
+s = input()
+i = 0
+ans = ""
+
+while i < len(s):
+    if s[i]=='.':
+        ans += '0'
+    elif s[i]=='-' and s[i+1]=='.':
+        ans += '1'
+        i += 1
+    elif s[i]=='-' and s[i+1]=='-':
+        ans += '2'
+        i += 1
+    i += 1
+
+print(ans)
